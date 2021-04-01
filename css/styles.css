@@ -1,0 +1,15 @@
+.caixa {
+  margin: auto;
+  padding: 40px;
+  border: 2px solid #f1f1f1; }
+  .caixa label {
+    padding: 3px;
+    margin: auto;
+    font-size: 48px;
+    color: #7e7e7e; }
+    .caixa label input {
+      display: none; }
+  .caixa .painted, .caixa .rated {
+    color: gold; }
+
+/*# sourceMappingURL=styles.css.map */

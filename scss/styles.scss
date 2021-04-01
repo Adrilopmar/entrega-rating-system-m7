@@ -1,0 +1,18 @@
+.caixa{
+    margin: auto;
+    padding: 40px ;
+    border: 2px solid #f1f1f1;  
+    label{
+        padding: 3px;
+        margin: auto ;
+        font-size: 48px;
+        color: rgb(126, 126, 126);
+        input{
+            display: none;
+        }
+    }
+    .painted, .rated{
+        color:gold;
+    }
+}
+
