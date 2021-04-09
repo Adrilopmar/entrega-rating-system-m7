@@ -2,17 +2,25 @@
     margin: auto;
     padding: 40px ;
     border: 2px solid #f1f1f1;  
+    flex-direction: row-reverse;
     label{
         padding: 3px;
         margin: auto ;
         font-size: 48px;
         color: rgb(126, 126, 126);
-        input{
-            display: none;
-        }
     }
+    input{
+        display: none;
+    }
+    
     .painted, .rated{
         color:gold;
     }
 }
-
+input:checked~label{
+    color:gold;
+}
+input:not(:checked) ~label:hover,
+input:not(:checked) ~label:hover ~label{
+    color:gold;
+}
